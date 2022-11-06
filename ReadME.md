@@ -1,5 +1,5 @@
 # YTCLONE
-Simple Youtube Clone web application on nodejs
+Simple Video Sharing web application on nodejs
 
 Developed by 
 Archit Madankar 
