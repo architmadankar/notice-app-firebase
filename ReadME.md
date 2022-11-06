@@ -1,12 +1,26 @@
-# YTCLONE
+
+# YT CLONE
+
 Simple Video Sharing web application on nodejs
 
-Developed by 
-Archit Madankar 
-https://github.com/architmadankar
-
-Dnyanada Khandait
 
 
-Anushka Shivanand
-https://github.com/Carfreak30
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm start
+```
+
+
+## 🚀 About us
+1. Archit Madankar
+2. Dnyanada Khandait
+3. Anushka Shivanand
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
