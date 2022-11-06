@@ -1,0 +1,25 @@
+{
+  "name": "ytclone",
+  "version": "1.0.0",
+  "description": "youtube clone by anushka, archit and dnyanada ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carfreak30/ytclone.git"
+  },
+  "keywords": [
+    "ytclone"
+  ],
+  "author": "architmadankar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Carfreak30/ytclone/issues"
+  },
+  "homepage": "https://github.com/Carfreak30/ytclone#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
