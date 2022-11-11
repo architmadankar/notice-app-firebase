@@ -1,17 +1,8 @@
 
-# YT CLONE
+# Notes App with Firebase
 
-Simple Video Sharing web application on nodejs
+Simple Android application with Google Firebase Realtime Database Intgration
 
-
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm start
-```
 
 
 ## 🚀 About us
