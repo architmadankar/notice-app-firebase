@@ -1,5 +1,5 @@
 
-# Notes App with Firebase
+# StoreME
 
 Simple Android application with Google Firebase Realtime Database Intgration
 
