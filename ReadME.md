@@ -1,7 +1,7 @@
 
 # StoreME
 
-Simple Android application with Google Firebase Realtime Database Intgration
+Simple Android application with Google Firebase Realtime Database Integration
 
 
 
