@@ -34,7 +34,7 @@
         android:text="Log In"
         android:textAllCaps="false"
         android:textSize="23dp"
-        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="191dp" />
 
     <Button
@@ -48,13 +48,13 @@
         android:textAllCaps="false"
         android:textColor="@color/pink"
         android:textSize="23dp"
-        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteX="209dp"
         tools:layout_editor_absoluteY="191dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="300dp"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:layout_above="@+id/editTextTextPassword"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -65,12 +65,12 @@
         android:inputType="textPersonName"
         android:textColorHint="@color/dgrey"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="308dp" />
+        tools:layout_editor_absoluteY="265dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="300dp"
-        android:layout_height="33dp"
+        android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -80,20 +80,20 @@
         android:inputType="textPassword"
         android:textColorHint="@color/dgrey"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="258dp" />
+        tools:layout_editor_absoluteY="315dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="153dp"
-        android:layout_height="35dp"
+        android:layout_width="238dp"
+        android:layout_height="41dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:background="@drawable/loginbutton"
-        android:text="Log In"
+        android:text="Create account"
         android:textAllCaps="false"
         android:textSize="23dp"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="379dp" />
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="386dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
