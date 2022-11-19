@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             else{
                 //login the user
             }
-=======
+
         loginbutton = findViewById(R.id.loginbtn);
 
         loginbutton.setOnClickListener(new View.OnClickListener() {
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
 
->>>>>>> Stashed changes
+ Stashed changes
             }
         });
     }

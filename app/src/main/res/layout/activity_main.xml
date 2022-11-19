@@ -9,12 +9,19 @@
     android:background="@drawable/bg"
     >
 
-<!--    <TextView-->
+    <!--    <TextView-->
 <!--        android:layout_width="121dp"-->
 <!--        android:layout_height="39dp"-->
 <!--        tools:layout_editor_absoluteX="7dp"-->
 <!--        tools:layout_editor_absoluteY="6dp" />-->
 
+
+    <ImageView
+        android:layout_width="122dp"
+        android:layout_height="92dp"
+        android:src="@drawable/booklogo"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="54dp" />
 
     <Button
         android:id="@+id/loginbtn"
@@ -27,8 +34,8 @@
         android:text="Log In"
         android:textAllCaps="false"
         android:textSize="23dp"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="255dp" />
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="191dp" />
 
     <Button
         android:id="@+id/signupbtn"
@@ -41,8 +48,8 @@
         android:textAllCaps="false"
         android:textColor="@color/pink"
         android:textSize="23dp"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="300dp" />
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="191dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -58,12 +65,12 @@
         android:inputType="textPersonName"
         android:textColorHint="@color/dgrey"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="406dp" />
+        tools:layout_editor_absoluteY="308dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:layout_height="33dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -72,13 +79,13 @@
         android:hint="Enter your password"
         android:inputType="textPassword"
         android:textColorHint="@color/dgrey"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="355dp" />
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="258dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="36dp"
+        android:layout_width="153dp"
+        android:layout_height="35dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -86,7 +93,7 @@
         android:text="Log In"
         android:textAllCaps="false"
         android:textSize="23dp"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="179dp" />
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="379dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
