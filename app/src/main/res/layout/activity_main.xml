@@ -83,21 +83,21 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="238dp"
-        android:layout_height="41dp"
+        android:layout_width="134dp"
+        android:layout_height="39dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:background="@drawable/loginbutton"
-        android:text="Create account"
+        android:text="Log in"
         android:textAllCaps="false"
         android:textSize="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.26" />
+        app:layout_constraintVertical_bias="0.228" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
