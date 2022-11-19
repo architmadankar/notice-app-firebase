@@ -9,19 +9,18 @@
     android:background="@drawable/bg"
     >
 
-    <!--    <TextView-->
-<!--        android:layout_width="121dp"-->
-<!--        android:layout_height="39dp"-->
-<!--        tools:layout_editor_absoluteX="7dp"-->
-<!--        tools:layout_editor_absoluteY="6dp" />-->
-
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="122dp"
         android:layout_height="92dp"
         android:src="@drawable/booklogo"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="54dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
 
     <Button
         android:id="@+id/loginbtn"
@@ -51,6 +50,7 @@
         tools:layout_editor_absoluteX="209dp"
         tools:layout_editor_absoluteY="191dp" />
 
+
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="300dp"
@@ -64,8 +64,30 @@
         android:hint="Enter your email"
         android:inputType="textPersonName"
         android:textColorHint="@color/dgrey"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="265dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="238dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/loginbutton"
+        android:text="Create account"
+        android:textAllCaps="false"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.114" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -79,21 +101,9 @@
         android:hint="Enter your password"
         android:inputType="textPassword"
         android:textColorHint="@color/dgrey"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="315dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="238dp"
-        android:layout_height="41dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:background="@drawable/loginbutton"
-        android:text="Create account"
-        android:textAllCaps="false"
-        android:textSize="23dp"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="386dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="345dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
