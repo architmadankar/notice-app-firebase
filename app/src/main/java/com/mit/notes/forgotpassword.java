@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class fogotpassword extends AppCompatActivity {
+public class forgotpassword extends AppCompatActivity {
     private EditText mforgotpassword;
     private Button mpasswordrecoverbutton;
     private TextView mgobacktologin;
@@ -19,7 +19,7 @@ public class fogotpassword extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fogotpassword);
+        setContentView(R.layout.activity_forgotpassword);
 
         getSupportActionBar().hide();
 

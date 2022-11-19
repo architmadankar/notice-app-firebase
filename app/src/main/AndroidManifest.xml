@@ -13,9 +13,7 @@
         android:theme="@style/Theme.NotesFirebase"
         tools:targetApi="31">
         <activity
-
-            android:name=".fogotpassword"
-
+            android:name=".forgotpassword"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
