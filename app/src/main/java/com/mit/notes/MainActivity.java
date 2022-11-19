@@ -5,18 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private EditText mloginemail,mloginpassword;
-    private RelativeLayout mlogin,mgotosignup;
+    private Button mlogin,mgotosignup;
     private TextView mgotoforgotpassword;
-
-
-public class MainActivity extends AppCompatActivity {
 
 
     @Override
@@ -49,29 +46,16 @@ public class MainActivity extends AppCompatActivity {
 
         mlogin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-            String mail=mloginemail.getText().toString().trim();
-            String password=mloginpassword.getText().toString().trim();
+            public void onClick(View v) {
+                String mail = mloginemail.getText().toString().trim();
+                String password = mloginpassword.getText().toString().trim();
 
-            if (mail.isEmpty() || password.isEmpty()){
-                Toast.makeText(getApplicationContext(),"Mail and password cant be empty",Toast.LENGTH_SHORT).show();
+                if (mail.isEmpty() || password.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "Mail and password cant be empty", Toast.LENGTH_SHORT).show();
 
-
-            }
-            else{
-                //login the user
-            }
-
-        loginbutton = findViewById(R.id.loginbtn);
-
-        loginbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-
-                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-                startActivity(intent);
-
-
+                } else {
+                    //login the user
+                }
             }
         });
     }
