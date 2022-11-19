@@ -39,9 +39,9 @@ public class fogotpassword extends AppCompatActivity {
         mpasswordrecoverbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String main=mforgotpassword.getText().toString().trim();
+                String mail=mforgotpassword.getText().toString().trim();
                 if (mail.isEmpty()){
-                    Toast.makeText(getApplicationContext(),"Mail daal Madarchod",Toast.LENGTH_SHORT.show);
+                    Toast.makeText(getApplicationContext(),"Mail daal Madarchod",Toast.LENGTH_SHORT).show();
                 }
                 else{
                     //send PW recovery Email
