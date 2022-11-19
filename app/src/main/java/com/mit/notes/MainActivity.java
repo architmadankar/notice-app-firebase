@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         mgotosignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent( MainActivity.this,signup.class));
+                startActivity(new Intent( MainActivity.this,signupx.class));
             }
         });
 

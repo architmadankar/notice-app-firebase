@@ -13,11 +13,9 @@
         android:theme="@style/Theme.NotesFirebase"
         tools:targetApi="31">
         <activity
-<<<<<<< Updated upstream
+
             android:name=".fogotpassword"
-=======
-            android:name=".LoginActivity"
->>>>>>> Stashed changes
+
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
