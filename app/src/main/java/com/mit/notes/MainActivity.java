@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             String password=mloginpassword.getText().toString().trim();
 
             if (mail.isEmpty() || password.isEmpty()){
-                Toast.makeText(getApplicationContext(),"Mail and password needs to be Entered",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Mail and password cant be empty",Toast.LENGTH_SHORT).show();
 
 
             }

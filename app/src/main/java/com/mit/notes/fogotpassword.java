@@ -41,7 +41,7 @@ public class fogotpassword extends AppCompatActivity {
             public void onClick(View view) {
                 String mail=mforgotpassword.getText().toString().trim();
                 if (mail.isEmpty()){
-                    Toast.makeText(getApplicationContext(),"Mail daal Madarchod",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Mail cant be Empty",Toast.LENGTH_SHORT).show();
                 }
                 else{
                     //send PW recovery Email
