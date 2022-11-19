@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+<<<<<<< Updated upstream
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -17,11 +18,17 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+=======
+
+public class MainActivity extends AppCompatActivity {
+    Button loginbutton;
+>>>>>>> Stashed changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+<<<<<<< Updated upstream
         getSupportActionBar().hide();
         mloginemail=findViewById(R.id.Loginemail);
         mloginpassword=findViewById(R.id.Loginpassword);
@@ -58,6 +65,17 @@ public class MainActivity extends AppCompatActivity {
             else{
                 //login the user
             }
+=======
+        loginbutton = findViewById(R.id.loginbtn);
+
+        loginbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+
+>>>>>>> Stashed changes
             }
         });
     }
