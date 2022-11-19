@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/splashbg">
+    android:background="@drawable/loginbg">
 
 <!--    <TextView-->
 <!--        android:layout_width="121dp"-->
@@ -14,5 +14,13 @@
 <!--        tools:layout_editor_absoluteX="7dp"-->
 <!--        tools:layout_editor_absoluteY="6dp" />-->
 
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="139dp"
+        android:layout_height="36dp"
+        android:background="@drawable/loginbutton"
+        android:text="Log In"
+        android:textAllCaps="false" />
 
 </RelativeLayout>
