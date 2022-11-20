@@ -7,7 +7,6 @@
     android:background="@drawable/bg"
     tools:context=".signup">
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="122dp"
@@ -19,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29" />
+        app:layout_constraintVertical_bias="0.071" />
 
     <Button
         android:id="@+id/gotologin"
@@ -34,11 +33,9 @@
         android:textAllCaps="false"
         android:textColor="@color/pink"
         android:textSize="23dp"
-        app:layout_constraintEnd_toStartOf="@+id/signupbtn"
-        app:layout_constraintHorizontal_bias="0.647"
-        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="249dp" />
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="191dp" />
 
     <Button
         android:id="@+id/signupbtn"
@@ -46,15 +43,14 @@
         android:layout_height="36dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="44dp"
         android:background="@drawable/signupbutton2"
         android:text="Sign up"
-        android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="23dp"
-        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="249dp" />
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="191dp" />
+
 
     <EditText
         android:id="@+id/signupemail"
@@ -64,14 +60,13 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="192dp"
+        android:layout_marginTop="128dp"
         android:background="@drawable/input_field"
-        android:paddingTop="5dp"
         android:ems="10"
         android:hint="Enter your email"
         android:inputType="textPersonName"
-        android:textColorHint="@color/dgrey"
         android:textSize="20dp"
+        android:textColorHint="@color/dgrey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,11 +82,8 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/input_field"
         android:ems="10"
-        android:fontFamily="sans-serif"
         android:hint="Enter your password"
         android:inputType="textPassword"
-        android:textSize="20dp"
-        android:paddingTop="5dp"
 
         android:textColorHint="@color/dgrey"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,7 +101,6 @@
         android:layout_marginBottom="284dp"
         android:background="@drawable/loginbutton"
         android:text="Create account"
-        android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -117,7 +108,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signuppassword"
-        app:layout_constraintVertical_bias="0.951" />
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
