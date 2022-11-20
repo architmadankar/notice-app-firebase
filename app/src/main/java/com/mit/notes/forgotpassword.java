@@ -25,7 +25,7 @@ public class forgotpassword extends AppCompatActivity {
 
 
         mforgotpassword=findViewById(R.id.forgotpassword);
-        mpasswordrecoverbutton=findViewById(R.id.passwordrevocerbutton);
+        mpasswordrecoverbutton=findViewById(R.id.passwordrecoverbutton);
         mgobacktologin=findViewById(R.id.gobacktologin);
 
         mgobacktologin.setOnClickListener(new View.OnClickListener() {
