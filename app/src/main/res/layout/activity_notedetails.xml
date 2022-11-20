@@ -33,7 +33,7 @@
 
   </androidx.appcompat.widget.Toolbar>
 
-  <EditText
+  <TextView
 
       android:id="@+id/contentofnotedetails"
       android:layout_width="368dp"
@@ -51,7 +51,7 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/toolbarofnotedetails">
 
-  </EditText>
+  </TextView>
 
   <com.google.android.material.floatingactionbutton.FloatingActionButton
       android:id="@+id/gotoeditnote"
@@ -65,8 +65,8 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/contentofnotedetails"
       app:layout_constraintVertical_bias="0.113"
-      app:maxImageSize="35dp"
-      app:srcCompat="@drawable/save"
+      app:maxImageSize="30dp"
+      app:srcCompat="@drawable/edit"
       tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
