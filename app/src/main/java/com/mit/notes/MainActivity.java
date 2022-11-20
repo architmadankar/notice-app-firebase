@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
     private void checkmailVerification(){
 
        FirebaseUser firebaseUser=firebaseAuth.getCurrentUser();
+       
 
         if (firebaseUser.isEmailVerified()==true){
             Toast.makeText(getApplicationContext(),"Logged In",Toast.LENGTH_SHORT).show();
