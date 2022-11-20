@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="dgrey">#5A5561</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="pink">#FF708D</color>
@@ -12,4 +8,17 @@
     <color name="llpink">#f7e1e6</color>
     <color name="grey">#C5BCBE</color>
     <color name="lgrey">#E1DEDF</color>
+
+    <color name="lpurple">#dfcaed</color>
+    <color name="lblue">#cccaed</color>
+    <color name="lteal">#cae4ed</color>
+    <color name="lgreen">#caede5</color>
+    <color name="lyellow">#caede5</color>
+    <color name="lorange">#edd5ca</color>
+    <color name="dusrawalalgrey">#c9c9c9</color>
+
+
+
+
+
 </resources>
