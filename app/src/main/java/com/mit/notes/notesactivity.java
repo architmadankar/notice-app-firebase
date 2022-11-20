@@ -37,7 +37,7 @@ public class notesactivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        return true;
+        
         getMenuInflater().inflate(R.menu.menu,menu);
         return true;
 

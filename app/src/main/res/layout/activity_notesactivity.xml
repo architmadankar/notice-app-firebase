@@ -26,7 +26,8 @@
         app:maxImageSize="50dp"
         app:srcCompat="@drawable/ic_baseline_add_24"
         tools:layout_editor_absoluteX="301dp"
-        tools:layout_editor_absoluteY="671dp" />
+        tools:layout_editor_absoluteY="671dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
