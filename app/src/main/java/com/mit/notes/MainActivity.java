@@ -38,8 +38,10 @@ public class MainActivity extends AppCompatActivity {
         mgotosignup=findViewById(R.id.gotosignup);
 
         firebaseAuth=FirebaseAuth.getInstance();
-        FirebaseUser firebaseUser=FirebaseAuth.getInstance().getCurrentUser();
+        FirebaseAuth firebaseUser;
 
+        //FirebaseUser=firebaseUser=FirebaseAuth.getInstance();
+        firebaseUser=FirebaseAuth.getInstance();
         if (firebaseUser!=null){
             finish();
             startActivity(new Intent(MainActivity.this,notesactivity.class));
@@ -87,7 +89,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void checkmailVerification(){
-        FirebaseUser firebaseUser=FirebaseAuth.getInstance().getCurrentUser();
+
+       FirebaseUser firebaseUser=firebaseAuth.getCurrentUser();
+
         if (firebaseUser.isEmailVerified()==true){
             Toast.makeText(getApplicationContext(),"Logged In",Toast.LENGTH_SHORT).show();
             finish();
