@@ -64,7 +64,9 @@
         app:layout_constraintTop_toBottomOf="@+id/createcontentofnote"
         app:maxImageSize="35dp"
         app:srcCompat="@drawable/save"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" >
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
