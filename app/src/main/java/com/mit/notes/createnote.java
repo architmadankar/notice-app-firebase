@@ -41,10 +41,10 @@ public class createnote extends AppCompatActivity {
         setContentView(R.layout.activity_createnote);
 
         msavenote=findViewById(R.id.savenote);
-        mcreatecontentofnote=findViewById(R.id.createcontentonote);
+        mcreatecontentofnote=findViewById(R.id.createcontentofnote);
         mcreatetitleofnote=findViewById(R.id.createtitleofnote);
 
-        Toolbar toolbar=findViewById(R.id.toolbarofcreateote);
+        Toolbar toolbar=findViewById(R.id.toolbarofcreatenote);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -63,7 +63,7 @@ public class createnote extends AppCompatActivity {
 
                 }else{
 
-                    DocumentReference documentReference=firebaseFirestore.collection("notes").document(firebaseUser.getUid()).collection("myNotes")
+                    DocumentReference documentReference=firebaseFirestore.collection("notes").document(firebaseUser.getUid()).collection("myNotes").document();
                     Map<String, Object> note=new HashMap<>();
                     note.put("title",title);
                     note.put("content",content);

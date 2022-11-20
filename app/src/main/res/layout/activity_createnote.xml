@@ -14,7 +14,8 @@
         android:layout_height="45dp"
         android:background="@color/white"
         tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="14dp">
+        tools:layout_editor_absoluteY="14dp"
+        tools:ignore="MissingConstraints">
 
         <EditText
             android:id="@+id/createtitleofnote"
@@ -40,12 +41,13 @@
         android:textColor="@color/pink"
         android:textSize="15sp"
         tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="69dp">
+        tools:layout_editor_absoluteY="69dp"
+        tools:ignore="MissingConstraints">
 
     </EditText>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/createnotefab"
+        android:id="@+id/savenote"
         android:layout_width="56dp"
         android:layout_height="65dp"
         android:backgroundTint="@color/white"
