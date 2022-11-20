@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="pink">#FF708D</color>
     <color name="lpink">#FDCBD5</color>
+    <color name="llpink">#f7e1e6</color>
     <color name="grey">#C5BCBE</color>
     <color name="lgrey">#E1DEDF</color>
 </resources>
