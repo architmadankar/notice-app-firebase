@@ -25,6 +25,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class createnote extends AppCompatActivity {
+
     EditText mcreatetitleofnote,mcreatecontentofnote;
     FloatingActionButton msavenote;
 
