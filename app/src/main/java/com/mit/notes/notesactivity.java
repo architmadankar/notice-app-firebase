@@ -21,7 +21,7 @@ public class notesactivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notesactivity);
 
-        mcreatenotesfab=findViewById(R.id.createnotesfab);
+        mcreatenotesfab=findViewById(R.id.createnotefab);
         firebaseAuth=FirebaseAuth.getInstance();
 
          mcreatenotesfab.setOnClickListener(new View.OnClickListener() {
