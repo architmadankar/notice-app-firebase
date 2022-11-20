@@ -14,16 +14,10 @@
         android:layout_height="44dp"
         android:layout_marginTop="16dp"
         android:background="@color/white"
-<<<<<<< Updated upstream
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="14dp"
-        tools:ignore="MissingConstraints">
-=======
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
->>>>>>> Stashed changes
 
         <EditText
             android:id="@+id/createtitleofnote"
@@ -51,16 +45,10 @@
         android:textColor="@color/pink"
         android:textColorHint="@color/dgrey"
         android:textSize="15sp"
-<<<<<<< Updated upstream
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="69dp"
-        tools:ignore="MissingConstraints">
-=======
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbarofcreatenote">
->>>>>>> Stashed changes
 
     </EditText>
 
