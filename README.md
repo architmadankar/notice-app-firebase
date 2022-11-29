@@ -11,6 +11,11 @@ Admin can Add, delete and view notices. Notices have title, description and imag
 
 User can view the published notices.
 
+
+## App Download 
+Download [NoticeMe](https://github.com/Carfreak30/notice-app-firebase/releases/download/Release/app-release.apk)
+
+
 ## 🚀 About us
 1.  [Archit Madankar](https://github.com/architmadankar) Backend and Firebase Integration
 2.  [Dnyanada Khandait](https://github.com/saik20012) Frontend and Backend Integration
