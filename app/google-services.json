@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "452045823249",
+    "firebase_url": "https://mit-noticeboard-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mit-noticeboard",
+    "storage_bucket": "mit-noticeboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452045823249:android:dd1ee23ca729f7acc9c0b0",
+        "android_client_info": {
+          "package_name": "com.example.noticeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452045823249-1aa423jasvk92or3o4b3rbi17rigc88t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrGFXjSDPCczjx61z_By0V00ZpQKVqNmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452045823249-1aa423jasvk92or3o4b3rbi17rigc88t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452045823249:android:afb073612b1b4c69c9c0b0",
+        "android_client_info": {
+          "package_name": "com.example.noticeboardproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452045823249-1aa423jasvk92or3o4b3rbi17rigc88t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrGFXjSDPCczjx61z_By0V00ZpQKVqNmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452045823249-1aa423jasvk92or3o4b3rbi17rigc88t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
