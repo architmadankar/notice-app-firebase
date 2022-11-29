@@ -3,7 +3,7 @@
 
 Digital notice board android app, that uses firebase as database. 
 
-Have multiple logins for user and seprate admin panel.
+Have multiple logins for user and separate admin panel.
 
 Firebase authentication, firebase storage and realtime database is used.
 
