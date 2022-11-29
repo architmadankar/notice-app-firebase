@@ -3,9 +3,11 @@
 
 Digital notice board android app, that uses firebase as database. 
 
-Have multiple login for user and admin. Firebase authentication, firebase storage and realtime database are used.
+Have multiple logins for user and seprate admin panel.
 
-Admin can Add new notices, delete and view notices.Notices have titel, description and images.
+Firebase authentication, firebase storage and realtime database is used.
+
+Admin can Add, delete and view notices. Notices have title, description and images.
 
 User can view the published notices.
 
