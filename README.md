@@ -1,4 +1,4 @@
-# digital-notice-board-android-application
+# NoticeMe
 
 
 Digital notice board android use firebase as database. 
