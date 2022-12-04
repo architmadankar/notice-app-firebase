@@ -27,9 +27,11 @@ User can view the published notices.
 ![Screenshot_2022-12-04-13-54-04-47_4fb549a5fcf317c6fbe64324d02a9486](https://user-images.githubusercontent.com/115229534/205483823-97d327b6-135c-4aab-89a0-5329a708559d.jpg)
 
 ## ER Diagram
+[NoticeMe.pdf](https://github.com/Carfreak30/notice-app-firebase/files/10148597/NoticeMe.pdf)
 
 ## Requirement Collection and Analysis
 
+[Blank diagram.pdf](https://github.com/Carfreak30/notice-app-firebase/files/10148599/Blank.diagram.pdf)
 
 
 ## 🚀 About us
