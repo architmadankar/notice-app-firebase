@@ -14,7 +14,7 @@ User can view the published notices.
 
 
 ## Output 
-[NoticeMe![Screenshot_2022-12-04-13-52-36-45_4fb549a5fcf317c6fbe64324d02a9486](https://user-images.githubusercontent.com/115229534/205481575-03035a76-5aac-4e76-9b7a-5e8d7be73431.jpg)]
+[NoticeMe!][Screenshot_2022-12-04-13-52-36-45_4fb549a5fcf317c6fbe64324d02a9486](https://user-images.githubusercontent.com/115229534/205481575-03035a76-5aac-4e76-9b7a-5e8d7be73431.jpg)
 
 
 
