@@ -14,7 +14,7 @@ User can view the published notices.
 
 
 ## App Download 
-Download (https://github.com/Carfreak30/notice-app-firebase/releases/download/Release/app-release.apk)
+[Download Apk](https://github.com/Carfreak30/notice-app-firebase/releases/download/Release/app-release.apk)
 
 
 ## Output 
