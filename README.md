@@ -26,6 +26,11 @@ User can view the published notices.
 ![Screenshot_2022-12-04-13-53-41-66_4fb549a5fcf317c6fbe64324d02a9486](https://user-images.githubusercontent.com/115229534/205483822-b228b13d-7b9d-4c68-85ad-9e7693702c0e.jpg)
 ![Screenshot_2022-12-04-13-54-04-47_4fb549a5fcf317c6fbe64324d02a9486](https://user-images.githubusercontent.com/115229534/205483823-97d327b6-135c-4aab-89a0-5329a708559d.jpg)
 
+## ER Diagram
+
+## Requirement Collection and Analysis
+
+
 
 ## 🚀 About us
 1.  [Archit Madankar](https://github.com/architmadankar) Backend and Firebase Integration
