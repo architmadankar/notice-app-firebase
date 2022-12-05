@@ -19,6 +19,11 @@ User can view the published notices.
 ## ER Diagram
 
 ![](https://github.com/Carfreak30/notice-app-firebase/blob/main/.idea/NoticeMe-1.png?raw=true)
+
+
+## Use Case
+![](https://github.com/Carfreak30/notice-app-firebase/blob/main/.idea/Use%20Case%20(2).png?raw=true)
+
 ## Requirement Collection and Analysis
 
 ![](https://github.com/Carfreak30/notice-app-firebase/blob/main/.idea/Blank.diagram-1.png?raw=true)
